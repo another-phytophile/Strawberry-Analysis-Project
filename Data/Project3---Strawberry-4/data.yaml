@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Ripe Strawberry']
+
+roboflow:
+  workspace: testproject-nnk6i
+  project: project3-strawberry
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/testproject-nnk6i/project3-strawberry/dataset/4
