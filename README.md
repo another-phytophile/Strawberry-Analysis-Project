@@ -1,4 +1,4 @@
-# Strawberry Analysis Project
+# 🍓 Strawberry Analysis Project 🍓
 
  In HS495 class, we were tasked with training a deep learning model to detect ripe strawberries. Therefore, this project will evaluate and compare the performance of recent YOLO models (YOLOv11 and YOLOe) alongside a Qwen 2.5 VL model on a very small dataset. 
 
