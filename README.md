@@ -8,10 +8,6 @@
 - Later, I added 8 additional images. These were mostly null images, or images without any ripe strawberries to try to obtain a better precision. That is, I tried to add images with no ripe strawberries to make the model less likely to identify something that was not a raw strawberry as a raw strawberry. This version is called V4.
 - For labeling, me, Shailesh Raj Acharya, and Steve Ameridge collaborated on labeling images. 
 
-## Models
-
-- [View the Finalized Finetuned Models Here](https://huggingface.co/another-phytophile/StrawberryModelVariation)
-
 ## Conclusion
 
 Our results strongly support the conclusion that fine tuned modeled outperformed zero-shot models in most cases. While zero-shot performance with `YOLOE` achieved decent results, particularly with mAP at the 50-95 threshold, it consistently fell below even models fined-tuned with default parameters. With small model architectures like `YOLO` the cost of fine tuning is also small, with the most significant bottleneck being labeling and not compute. 
@@ -28,3 +24,11 @@ Our results strongly support the conclusion that fine tuned modeled outperformed
 | Qwen 2.5 VL       | 0.663     | 0.54   | 0.452 | 0.284    |
 
 Overall Metric comparisons for the six models produced. Bolded represent the best metric in each category. note that the first two YOLO11 models were trained on a slightly different dataset than the other 4. 
+
+## How to Run
+
+- Notebooks/`Strawberry Detection.ipynb` contains the code to run the models (will require comyfui and roboflow accounts).
+
+## Models
+
+- [View the Finalized Finetuned Models Here](https://huggingface.co/another-phytophile/StrawberryModelVariation)
