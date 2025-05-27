@@ -1,0 +1,6 @@
+# Ignore output from fine tuning
+runs/
+Validation/
+# Tracked by HF
+Data/
+Models/
